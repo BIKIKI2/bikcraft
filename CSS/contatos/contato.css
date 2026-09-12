@@ -1,0 +1,58 @@
+#contato {
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
+}
+.contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+.contato-redes {
+  display: flex;
+  gap: 30px;
+  padding-left: 28px;
+}
+.contato-loja {
+  background-color: var(--cor-12);
+}
+.contato h2 {
+  padding-bottom: 40px;
+}
+.contato-loja,
+.contato-formulario {
+  padding: 60px;
+}
+.contato-endereço p {
+  margin-bottom: 8px;
+}
+.contato-contato a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 8px;
+  padding-left: 28px;
+}
+.contato-contato a:first-child {
+  background: url(../../img/icones/email.svg) no-repeat 0px 2px;
+}
+.contato-endereço {
+  background: url(../../img/icones/local.svg) no-repeat 0px 2px;
+  padding-left: 28px;
+  padding-bottom: 32px;
+}
+.contato-contato a:nth-child(2) {
+  margin-bottom: 32px;
+}
+.contato-contato a:nth-child(3) {
+  background: url(../../img/icones/telefone.svg) no-repeat 0px 2px;
+  margin-bottom: 60px;
+}
+.contato-formulario {
+  background: var(--cor-0);
+}
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+  .contato-loja,
+  .contato-formulario {
+    padding: 20px;
+  }
+}

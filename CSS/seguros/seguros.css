@@ -1,0 +1,26 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+  box-shadow:
+    inset 0px 120px var(--cor-0),
+    inset 0px -120px var(--cor-12);
+}
+.seguros-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.seguros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.seguros-conteudo {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.seguros-conteudo h2 {
+  margin-bottom: 32px;
+}
+.seguros-conteudo p {
+  margin-bottom: 16px;
+}

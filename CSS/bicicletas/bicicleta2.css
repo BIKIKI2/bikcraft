@@ -1,0 +1,16 @@
+.bicicleta-escolha ul {
+  display: flex;
+  align-items: center;
+  justify-items: start;
+  gap: 8px 12px;
+}
+.bicicleta2 h2 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.bicicleta-escolha h3 {
+  margin-top: 8px;
+}
+.bicicleta2 {
+  padding-bottom: 120px;
+}

@@ -1,0 +1,17 @@
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.termos-conteudo {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.termos-conteudo h2 {
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.termos-conteudo ul li {
+  margin-bottom: 24px;
+  max-width: 75ch;
+}
